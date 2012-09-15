@@ -3,7 +3,7 @@
 	padding: 0px;
 }
 
-h1 {
+h1, h2 {
 	font-family: Arial;
 	text-shadow: 1px 1px 0px black;
 	font-size: 20px;
