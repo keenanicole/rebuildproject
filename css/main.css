@@ -3,22 +3,36 @@
 	padding: 0px;
 }
 
+nav ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+#banner {
+	width: 100%;
+}
+
+#banner img {
+	width: 100%;
+}
+
 /* iPhone 4 ----------- */
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 	body {
-		background-color: green; 
+		background-color: black; 
 	}
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-width : 320px) 
+and (min-width : 320px)
 and (max-width : 480px) {
 	body {
-		background-color: blue; 
+		background-color: black; 
 	}
+	#banner { width: 50%; }
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -26,7 +40,7 @@ and (max-width : 480px) {
 and (min-width : 768px) 
 and (max-width : 1024px) {
 	body {
-		background-color: red; 
+		background-color: black; 
 	}
 }
 
