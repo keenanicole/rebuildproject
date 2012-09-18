@@ -3,35 +3,70 @@
 	padding: 0px;
 }
 
-h1, h2 {
-	font-family: Arial;
-	text-shadow: 1px 1px 0px black;
-	font-size: 20px;
-	clear: both;
-	margin: 0px;
-	padding: 0px;
+#container
+{
+	margin: 0 30px;
+	background: #fff;
 }
 
-p {
-	font-family: Arial;
-	text-shadow: 0px 0px 0px black;
-	font-size: 12px;
-	clear: both;
-	margin: 0px;
-	padding: 0px;
+#header
+{
+	background: #ccc;
+	padding: 20px;
 }
 
-nav ul li {
-	display: inline-block;
-	list-style: none;
-}
+#header h1 { margin: 0; }
 
-#banner {
+#navigation
+{
+	float: left;
 	width: 100%;
+	background: #333;
 }
 
-#banner img {
-	width: 100%;
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content
+{
+	clear: left;
+	padding: 20px;
+}
+
+#content h2
+{
+	color: #000;
+	font-size: 160%;
+	margin: 0 0 .5em;
+}
+
+#footer
+{
+	background: #ccc;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
 }
 
 /* iPhone 4 ----------- */
@@ -49,8 +84,8 @@ and (min-width : 320px)
 and (max-width : 480px) {
 	body {
 		background-color: white; 
-	}
-	#banner { width: 100%; }
+		#banner { width: 100%; }
+		}
 	
 }
 
@@ -60,7 +95,7 @@ and (min-width : 768px)
 and (max-width : 1024px) {
 	body {
 		background-color: white;
-		#banner { width: 50%; } 
+		#banner { width: 100%; } 
 	}
 }
 
