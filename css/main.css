@@ -71,14 +71,18 @@ body {
 	color: #000;
 	font-size: 160%;
 	margin: 0 0 .5em;
+	font-family: 'arial';
+ 	font-size: 12px;
 }
 
 #footer
 {
-	background: #ccc;
+	background: #ECE6CF;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+	font-family: 'arial';
+ 	font-size: 12px;
 }
 
 p
