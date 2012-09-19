@@ -79,40 +79,54 @@ body {
  	font-size: 12px;
 }
 
-form label {
-	display: inline-block;
-	width: 31.23%;
-	color: #FFFFFF;
-	vertical-align: top;
+form {
+	width:459px;
+	margin:0 auto;
 }
 
-form div {
-	margin-top: 20px;
+label {
+	display:block;
+	margin-top:20px;
+	letter-spacing:2px;
 }
 
-form input {
-	width: 65%;
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
 }
 
-form select {
-	width: 66%;
+	input:focus, textarea:focus {
+		border:1px solid #97d6eb;
+	}
+
+textarea {
+	height:213px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
 }
 
-form textarea {
-	width: 66%;
-	height: 100px;
+#submit {
+	background:url(images/submit.jpg);
+	width:127px;
+	height:38px;
+	text-indent:-9999px;
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
 }
 
-form input[type=submit] {
-	float: right;
-	width: 15.625%;
-	height: 30px;
-	margin: 20px 2% 0px 0px;
-}
-
-form input:focus, form select:focus, form textarea:focus {
-	background-color: #CCCCCC;
-}
+	#submit:hover {
+		opacity:0.9;
+	}
 
 #footer
 {
