@@ -7,6 +7,7 @@
 {
 	margin: 0 30px;
 	background: #fff;
+	max-width: 960px;
 }
 
 #header
@@ -48,6 +49,12 @@
 }
 
 #navigation li a:hover { background: #383; }
+
+#banner {
+	width: 960px;
+	height: 340px;
+	background: transparent url('../images/yaychurch.png') no-repeat;
+}
 
 #content
 {
