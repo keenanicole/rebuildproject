@@ -9,7 +9,7 @@ body {
 
 #container
 {
-	margin: 0 30px;
+	margin: 30px auto;
 	background: #fff;
 	max-width: 960px;
 }
@@ -49,9 +49,11 @@ body {
 	padding: 5px 10px;
 	color: #fff;
 	text-decoration: none;
+	font-family: 'arial';
+ 	font-size: 12px;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background: #000000; }
 
 #banner {
 	width: 960px;
