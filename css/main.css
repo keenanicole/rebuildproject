@@ -60,7 +60,14 @@ body {
 #banner {
 	width: 960px;
 	height: 340px;
+}
+
+.home {
 	background: transparent url('../images/yaychurch.png') no-repeat;
+}
+
+.contact {
+	background: transparent url('../images/yaycontact.png') no-repeat;
 }
 
 #content
