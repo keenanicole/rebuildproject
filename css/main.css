@@ -3,6 +3,10 @@
 	padding: 0px;
 }
 
+body {
+	background: #000000 url('../images/subtle_carbon.png');
+}
+
 #container
 {
 	margin: 0 30px;
@@ -60,6 +64,7 @@
 {
 	clear: left;
 	padding: 20px;
+	background: #FFFFFF;
 }
 
 #content h2
@@ -76,6 +81,13 @@
 	padding: 20px;
 	height: 1%;
 }
+
+p
+{
+	font-family: 'arial';
+ 	font-size: 12px;
+ }
+
 
 /* iPhone 4 ----------- */
 @media
