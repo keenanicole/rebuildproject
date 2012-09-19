@@ -21,7 +21,9 @@ body {
 	
 }
 
-#header h1 { font-family: 'Vast Shadow', cursive; margin: 0; color: #FFFFFF;}
+#header h1 { font-family: 'Vast Shadow', cursive; margin: 0; color: #FFFFFF;
+
+}
 
 #navigation
 {
@@ -75,6 +77,41 @@ body {
 	margin: 0 0 .5em;
 	font-family: 'arial';
  	font-size: 12px;
+}
+
+form label {
+	display: inline-block;
+	width: 31.23%;
+	color: #FFFFFF;
+	vertical-align: top;
+}
+
+form div {
+	margin-top: 20px;
+}
+
+form input {
+	width: 65%;
+}
+
+form select {
+	width: 66%;
+}
+
+form textarea {
+	width: 66%;
+	height: 100px;
+}
+
+form input[type=submit] {
+	float: right;
+	width: 15.625%;
+	height: 30px;
+	margin: 20px 2% 0px 0px;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+	background-color: #CCCCCC;
 }
 
 #footer
