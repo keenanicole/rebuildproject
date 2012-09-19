@@ -67,15 +67,15 @@ body {
 }
 
 .contact {
-	background: transparent url('../images/Yaycontact.png') -repeat;
+	background: transparent url('../images/Yaycontact.png') no-repeat;
 }
 
 .giving {
-	background: transparent url('../images/yaygiving.png') -repeat;
+	background: transparent url('../images/yaygiving.png') no-repeat;
 }
 
 .calendar {
-	background: transparent url('../images/yaycalendar.png') -repeat;
+	background: transparent url('../images/yaycalendar.png') no-repeat;
 }
 
 #content
