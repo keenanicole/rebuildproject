@@ -21,7 +21,7 @@ body {
 	
 }
 
-#header h1 { font-family: 'Vast Shadow', cursive; margin: 0; color: #FFFFFF;
+#header h1 { font-family: 'Lobster', cursive; margin: 0; color: #FFFFFF;
 
 }
 
@@ -52,7 +52,7 @@ body {
 	color: #fff;
 	text-decoration: none;
 	font-family: 'arial';
- 	font-size: 12px;
+ 	font-size: 14px;
 }
 
 #navigation li a:hover { background: #000000; }
@@ -98,7 +98,7 @@ body {
 }
 
 #content h2 {
- 	font-family: ‘Lobster’, cursive, Arial, serif; font-weight: 400; 
+ 	font-family: 'Lobster'; font-weight: 400; 
 
 }
 
