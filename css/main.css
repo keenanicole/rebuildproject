@@ -63,11 +63,11 @@ body {
 }
 
 .home {
-	background: transparent url('../images/yaychurch.png') no-repeat;
+	background: transparent url('../images/yayhome.png') no-repeat;
 }
 
 .contact {
-	background: transparent url('../images/Yaycontact.png') no-repeat;
+	background: transparent url('../images/yaycontact.png') no-repeat;
 }
 
 .giving {
@@ -76,6 +76,18 @@ body {
 
 .calendar {
 	background: transparent url('../images/yaycalendar.png') no-repeat;
+}
+
+.groups {
+	background: transparent url('../images/yaygroups.png') no-repeat;
+}
+
+.directory {
+	background: transparent url('../images/yaydirectory.png') no-repeat;
+}
+
+.word {
+	background: transparent url('../images/yayword.png') no-repeat;
 }
 
 #content
