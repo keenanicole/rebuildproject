@@ -109,12 +109,17 @@ body {
 	min-height: 650px;
 }
 
+.label {
+	width: 100px;
+	font-weight: bold;
+}
+
 #content h2 {
  	font-family: 'Lobster', cursive; font-weight: 400;
 }
 
 #contactInfo {
-	width: 200px;
+	width: 400px;
 }
 
 #contactInfo h2 {
