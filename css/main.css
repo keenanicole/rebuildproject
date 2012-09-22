@@ -112,10 +112,15 @@ body {
 .label {
 	width: 100px;
 	font-weight: bold;
+	font-family: Arial;
+}
+
+.field {
+	font-family: Arial;
 }
 
 #content h2 {
- 	font-family: 'Lobster', cursive; font-weight: 400;
+ 	font-family: 'Lobster', cursive; font-weight: 300;
 }
 
 #contactInfo {
