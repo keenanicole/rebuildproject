@@ -119,6 +119,7 @@ body {
 .field {
 	font-family: Arial;
 	font-size: 12px;
+	clear: both;
 }
 
 #content h2 {
