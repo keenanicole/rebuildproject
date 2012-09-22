@@ -114,8 +114,16 @@ body {
 	width: 200px;
 }
 
+#contactInfo h2 {
+	font-family: 'Lobster', cursive; font-weight: 400;
+}
+
 #contactForm {
 	margin-right: 50px;
+}
+
+#contactForm h2 {
+	font-family: 'Lobster', cursive; font-weight: 400;
 }
 
 a:link{
