@@ -103,7 +103,10 @@ body {
 	clear: left;
 	padding: 20px;
 	background: #FFFFFF;
-	min-height: 600px;
+}
+
+.tall {
+	min-height: 650px;
 }
 
 #content h2 {
