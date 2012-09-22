@@ -98,8 +98,11 @@ body {
 }
 
 #content h2 {
- 	font-family: 'Lobster', cursive; font-weight: 400; 
+ 	font-family: 'Lobster', cursive; font-weight: 400;
+}
 
+#contactInfo {
+	text-align: center;
 }
 
 a:link{
