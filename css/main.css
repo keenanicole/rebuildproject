@@ -253,11 +253,13 @@ and (max-width : 480px) {
 	#contactInfo {
 		float: none;
 		margin: 0px auto;
+		width: 500px;
 	}
 	
 	#contactForm {
 		float: none;
-		margin: 0px auto;
+		margin: 20px auto;
+		margin: 600px;
 	}
 }
 
