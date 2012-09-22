@@ -240,7 +240,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	#contactForm {
 		float: none;
 		margin: 20px auto;
-		margin: 600px;
+		width: 600px;
 	}
 }
 
