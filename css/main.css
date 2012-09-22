@@ -98,8 +98,24 @@ body {
 }
 
 #content h2 {
- 	font-family: 'Lobster'; font-weight: 400; 
+ 	font-family: 'Lobster', cursive; font-weight: 400; 
 
+}
+
+a:link{
+	color: #0094D5;
+}
+
+a:visited{
+	color: #000000;
+}
+	
+a:hover{
+	color: #000000;
+}
+	
+a:active{
+	color: #0094D5;
 }
 
 form {
@@ -133,7 +149,7 @@ input, textarea {
 
 textarea {
 	height:213px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Arial;
 	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
 }
 
