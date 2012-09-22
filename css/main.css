@@ -21,6 +21,14 @@ body {
 	
 }
 
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
 #header h1 { font-family: 'Lobster', cursive; margin: 0; color: #FFFFFF;
 
 }
@@ -102,7 +110,11 @@ body {
 }
 
 #contactInfo {
-	text-align: center;
+	width: 200px;
+}
+
+#contactForm {
+	margin-left: 20px; 
 }
 
 a:link{
