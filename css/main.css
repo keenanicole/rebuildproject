@@ -103,7 +103,7 @@ body {
 	clear: left;
 	padding: 20px;
 	background: #FFFFFF;
-	min-height: 550px;
+	min-height: 600px;
 }
 
 #content h2 {
@@ -115,7 +115,7 @@ body {
 }
 
 #contactForm {
-	margin-left: 20px; 
+	margin-right: 50px;
 }
 
 a:link{
