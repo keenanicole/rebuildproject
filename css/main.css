@@ -230,9 +230,13 @@ p
 /* iPhone 4 ----------- */
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-	body {
-		background-color: white; 
+only screen and (min-device-pixel-ratio : 1.5) {	
+	#contactInfo {
+		clear: both;
+	}
+	
+	#contactForm {
+		float: left;
 	}
 }
 
@@ -240,10 +244,13 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen 
 and (min-width : 320px)
 and (max-width : 480px) {
-	body {
-		background-color: white; 
-		#banner { width: 100%; }
-		}
+	#contactInfo {
+		clear: both;
+	}
+	
+	#contactForm {
+		float: left;
+	}
 	
 }
 
@@ -251,9 +258,5 @@ and (max-width : 480px) {
 @media only screen 
 and (min-width : 768px) 
 and (max-width : 1024px) {
-	body {
-		background-color: white;
-		#banner { width: 100%; } 
-	}
 }
 
